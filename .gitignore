@@ -5,18 +5,18 @@
 # -------------------------
 # Node.js та менеджери пакетів
 # -------------------------
-node_modules/       # Усі встановлені npm/yarn пакети (вагає багато, ставиться локально)
-npm-debug.log*      # Логи помилок npm
+node_modules/
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json   # Файл блокування npm (залежно від підходу може бути в репо, але тут ігноруємо)
-yarn.lock           # Аналогічно для yarn
+package-lock.json
+yarn.lock
 
 # -------------------------
 # Gulp та кеші
 # -------------------------
-.cache/             # Кеш Gulp/Webpack
-tmp/                # Тимчасові файли під час збірки
+.cache/
+tmp/
 
 # -------------------------
 # Prepros
@@ -25,21 +25,21 @@ prepros.cfg
 prepros.config
 *.prepros
 *.prepros.cfg
-.prepros/           # Папка конфігів Prepros
+.prepros/
 
 # -------------------------
 # PhpStorm / WebStorm
 # -------------------------
-.idea/              # Налаштування IDE JetBrains
+.idea/
 *.iml
 *.iws
-out/                # Папка компіляції (якщо є)
+out/
 
 # -------------------------
 # Системні файли (Windows / macOS)
 # -------------------------
-.DS_Store           # macOS службовий файл
-Thumbs.db           # Windows кеш зображень
+.DS_Store
+Thumbs.db
 ehthumbs.db
 Desktop.ini
 
@@ -56,16 +56,16 @@ pids/
 # -------------------------
 # Папки/файли збірки
 # -------------------------
-dist/               # Папка з фінальною збіркою (Gulp/Webpack)
+dist/
 build/
 public/build/
-coverage/           # Звіти про покриття тестами
+coverage/
 
 # -------------------------
 # PHP
 # -------------------------
-vendor/             # Composer залежності
-composer.lock       # Файл блокування (ігноруємо, якщо не хочемо фіксувати версії)
+vendor/
+composer.lock
 
 # -------------------------
 # Тимчасові файли
@@ -81,10 +81,10 @@ composer.lock       # Файл блокування (ігноруємо, якщ�
 # SASS / LESS кеш
 # -------------------------
 .sass-cache/
-*.css.map           # Карти стилів (якщо не потрібні в репо)
+*.css.map
 
 # -------------------------
 # Секрети та конфіги середовища
 # -------------------------
-.env                # Основний файл змінних середовища
-.env.*              # Додаткові варіанти (.env.local, .env.prod і т.д.)
+.env
+.env.*
