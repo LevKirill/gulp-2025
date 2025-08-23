@@ -33,7 +33,7 @@ A modern Gulp build setup for front-end development with SCSS, JavaScript, image
     - Auto replace `<img>` with `<picture>` (preserves classes and alt)
 
 - **Retina support (2x)**
-    - If enableRetina is true and a file with @2x exists (e.g., image@2x.jpg), the <picture> will include 1x and 2x in srcset.
+    - If enableRetina is true and a file with @2x exists (e.g., `image@2x.jpg`), the `<picture>` will include 1x and 2x in srcset.
     - If no @2x file exists or enableRetina is false, the image will be inserted normally without 2x.
 
 - **Fonts**
@@ -136,7 +136,7 @@ This structure ensures clarity, makes adding new files easy, and helps prevent m
   - Build: об’єднання медіа-запитів, мінімізація CSS  
 
 - **JavaScript**  
-  - Об’єднання бібліотек + твій main.js  
+  - Об’єднання бібліотек + твій main JS 
   - Мінімізація тільки твого коду  
   - Бібліотеки залишаються без змін, щоб нічого не ламалося  
 
@@ -150,7 +150,7 @@ This structure ensures clarity, makes adding new files easy, and helps prevent m
   - Автоматична заміна `<img>` на `<picture>` (класи та alt зберігаються)  
 
 - **Підтримка Retina (2x)**
-  - Якщо enableRetina встановлено в true і існує файл з @2x (наприклад, image@2x.jpg), у <picture> буде додано 1x і 2x у srcset. 
+  - Якщо enableRetina встановлено в true і існує файл з @2x (наприклад, `image@2x.jpg`), у `<picture>` буде додано 1x і 2x у srcset. 
   - Якщо файлу з @2x немає або enableRetina встановлено в false, зображення буде вставлене звичайним способом без 2x.
 
 - **Шрифти**  
