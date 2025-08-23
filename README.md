@@ -32,6 +32,10 @@ A modern Gulp build setup for front-end development with SCSS, JavaScript, image
     - Convert to WebP and AVIF
     - Auto replace `<img>` with `<picture>` (preserves classes and alt)
 
+- **Retina support (2x)**
+    - If enableRetina is true and a file with @2x exists (e.g., image@2x.jpg), the <picture> will include 1x and 2x in srcset.
+    - If no @2x file exists or enableRetina is false, the image will be inserted normally without 2x.
+
 - **Fonts**
     - Converts `.ttf` → `.woff` + `.woff2`
 
@@ -144,6 +148,10 @@ This structure ensures clarity, makes adding new files easy, and helps prevent m
   - Оптимізація JPG/PNG  
   - Конвертація у WebP та AVIF  
   - Автоматична заміна `<img>` на `<picture>` (класи та alt зберігаються)  
+
+- **Підтримка Retina (2x)**
+  - Якщо enableRetina встановлено в true і існує файл з @2x (наприклад, image@2x.jpg), у <picture> буде додано 1x і 2x у srcset. 
+  - Якщо файлу з @2x немає або enableRetina встановлено в false, зображення буде вставлене звичайним способом без 2x.
 
 - **Шрифти**  
   - Конвертує `.ttf` → `.woff` + `.woff2`  
